@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
-
+/*
+Escaleritas de Mario
+*/
 int main(void)
 {
    int cantidad_escalones;
