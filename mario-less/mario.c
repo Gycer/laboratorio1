@@ -11,7 +11,6 @@ int main(void)
 
    printf("Ingrese la cantidad de escalones que tendrá la piramide (Numero entero positivo entre 1 y 8), \n");
    scanf("%i", &cantidad_escalones);
-   printf("%i\n", cantidad_escalones);
 
    /*Se verifica si la cantidad ingresada por el 
         usuario cumple con el formato deseado*/
@@ -22,7 +21,8 @@ int main(void)
       scanf("%i", &cantidad_escalones);
       printf("%i\n", cantidad_escalones);
    }
-   /*Se estructura la piramide*/
+      /*Se estructura la piramide 
+   piso por piso y bloque por bloque*/
    
    for(int piso = 1; piso <= cantidad_escalones; piso++ ){
       for(int bloque = 1; bloque <= cantidad_escalones; bloque++){
