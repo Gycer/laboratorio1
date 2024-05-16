@@ -9,13 +9,13 @@ int main(void)
    /*Se le pide al usuario que ingrese el numero 
       de escalones de la piramide y se guarda*/
 
-   printf("Ingrese la cantidad de escalones que tendrá la piramide (Numero entero positivo entre 1 y 8), \n");
+   printf("Ingrese la cantidad de escalones que tendrá la piramide (Numero entero positivo entre 1 y 10), \n");
    scanf("%i", &cantidad_escalones);
 
    /*Se verifica si la cantidad ingresada por el 
         usuario cumple con el formato deseado*/
 
-   while(cantidad_escalones<1 || cantidad_escalones>8){
+   while(cantidad_escalones<1 || cantidad_escalones>10){
       printf("\"El numero que ingreso no cumple con el formato indicado\"\n\n");
       printf("Ingrese la cantidad de escalones que tendrá la piramide (Numero entero positivo entre 1 y 8), \n");
       scanf("%i", &cantidad_escalones);
